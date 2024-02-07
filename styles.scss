@@ -1,0 +1,39 @@
+@mixin grid {
+  display: flex;
+  background-color: aquamarine;
+}
+
+@mixin flex-column {
+  flex-direction: column;
+}
+
+
+
+
+$myColor : red; 
+$myColor-one : rgb(0, 13, 255); 
+
+
+
+@mixin  withVar ($myvariable) {
+    background-color :$myvariable;
+}
+
+section {
+
+    @include withVar($myColor-one)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

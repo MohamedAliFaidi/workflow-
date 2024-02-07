@@ -1,49 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Demo</title>
-    <link href="./styles.css" rel="stylesheet" />
-  </head>
-  <body>
-    <!-- <nav>
-      <a href="https://github.com/MohamedAliFAidi" target="_blank">Github</a>
-      <a
-        href="https://www.linkedin.com/in/mouhamed-ali-faidi-b38a57234/"
-        target="_blank"
-        >LinkedIn</a
-      >
-      <a href="about.html">about</a>
-    </nav> -->
+    <title>MYPortfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
 
-    <!-- <div id="flex" >
- <p>this is ap this is ap this is ap this is ap this One</p>
- <p>this is ap this is ap this is ap this is ap this two </p>
- <p>this is ap this is ap this is ap this is ap this three </p>
-</div> -->
+<body>
+    <nav class="nav">
+        <div class="nav-list">
+            <div class="nav-item"><a href="#home"> Home </a></div>
+            <div class="nav-item"><a href="#about">About </a></div>
+            <div class="nav-item"><a href="#work">Work</a></div>
+            <div class="nav-item"><a href="#resume">Resume</a></div>
+            <div class="nav-item"><a href="#contact">Contact </a></div>
+            </ul>
+    </nav>
+    <div id="img">
+        <img src="./media/1700228803237-removebg-preview.png" />
+    </div>
+    <ul>
+        <li class="section-item">
+            <section id="home">
+                <h1>Home</h1>
+                Hey there! I'm [Your Name], a passionate JavaScript developer with a knack
+                for crafting engaging web experiences. Welcome to my corner of the
+                internet where I showcase my love for coding and creativity.
+            </section>
+        </li>
+        <li class="section-item">
+            <section id="about">
+                <h1>About</h1>
+                Passionate about building high-performance web applications. Proficient in
+                frontend development with React.js and Next.js, as well as backend
+                development with Node.js. Committed to continuous learning and delivering
+                high-quality solutions. Absolutely, here's a more fleshed-out version with
+                placeholders for navigation: Welcome to My Portfolio! Hey there! I'm [Your
+                Name], a passionate JavaScript developer with a knack for crafting
+                engaging web experiences. Welcome to my corner of the internet where I
+                showcase my love for coding and creativity. About Me I thrive on turning
+                ideas into reality through clean, efficient, and scalable code. With a
+                background in JavaScript, I specialize in building dynamic and interactive
+                web applications that leave a lasting impression.
+            </section>
+        </li>
+        <li class="section-item">
+            <section id="work">
+                <h1>work</h1>
+                What I Do From front-end development using frameworks like React.js to
+                back-end scripting with Node.js, I'm equipped to handle the full stack of
+                web development. I enjoy exploring the latest technologies and
+                methodologies to deliver cutting-edge solutions tailored to your needs. My
+                Work Take a look at some of my recent projects to get a taste of what I
+                can do. Whether it's crafting intuitive user interfaces, optimizing
+                performance, or solving complex problems, I'm always up for a challenge.
+            </section>
+        </li>
+        <li class="section-item">
 
-    <!-- <div class="grid-container">
-    <div class="item1">Header</div>
-    <div class="item2">Menu</div>
-    <div class="item3">Main</div>  
-    <div class="item4">Right</div>
-    <div class="item5">Footer</div>
-  </div>
-     -->
+            <section id="resume">
+                <h1>Resume</h1>
+                EXPERIENCES Fullstack JavaScript Instructor : Guided project development
+                for students. Course presentations and student progress tracking.
+                Contribution to course content updates. Technical stack: React, Bootstrap,
+                Redux, Express, MongoDB. Design of the MySQL database architecture.
+                Implementation of JWT authentication and authorization. Development of a
+                REST API (CRUD) using Express.js and JavaScript UI design using Figma.
+                Developed frontend enhancements using React native Design and
+                implementation of data model using MongoDB. RESTful API creation with
+                NestJS to provide the frontend interface. Backend feature implementation
+                using NestJS. Implementation of authentication using JWT, Google-Auth, and
+                next-auth. Added internationalization using i18next in both frontend and
+                backend. Use of AWS S3 for image storage. Implemented route protection
+                with Next.js. Utilized React with TypeScript and Next.js for frontend
+                enhancements. Used Zustand for state management in the frontend. Worked in
+                an Agile Scrum environment and used Jira to manage the backlog. Migration
+                to version 13, a stable Next.js app directory. Gomycode | June 2023 -
+                Present Development Mobile App for Patient Management | August 2022 -
+                October 2022 Development of an Ant Colony Management Web App | December
+                2023 - June 2023
+            </section>
+        </li>
+        <li class="section-item">
+            <section>
+                <h1>Contact me </h1>
+                <div id="div">
 
-     <!-- <div class="grid-container">
-      <div class="grid-item example-1">Example 1</div>
-      <div class="grid-item example-2">Example 2</div>
-      
-  </div>
+                    <form>
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-  <div class="grid-container-one">
-    <div class="grid-item example-1">Example 1</div>
-    <div class="grid-item example-2">Example 2</div>
-    
-</div> -->
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
- <section> this my section</section>
-  </body>
+                        <label for="country">Message</label>
+                        <!-- <select id="country" name="country">
+                      <option value="australia">Australia</option>
+                      <option value="canada">Canada</option>
+                      <option value="usa">USA</option>
+                    </select> -->
+                        <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </section>
+        </li>
+        <li>
+            <section id="footer">
+                <footer class="footer">
+
+                    <p>Footer</p>
+
+                </footer>
+
+            </section>
+        </li>
+    </ul>
+</body>
+
 </html>
